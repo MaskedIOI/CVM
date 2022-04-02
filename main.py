@@ -17,7 +17,6 @@ for last_line in LastCall:
     pass
 a = int(last_line.split()[0])
 Max = 115792089237316195423570985008687907852837564279074904382605163141518161494337
-a = 1
 while a <= Max:
 	private_key = hex(a)[2:].zfill(64)
 	private_key_bytes = bytes.fromhex(private_key)
